@@ -90,7 +90,7 @@ plotWhiskerLabels = function(thisData, catVar, numVar, boxWidth=1) {
           axis.line = element_line(colour = "black")) +
     theme(plot.title = element_text(size=rel(2), face="bold")) +
     theme(axis.title = element_text(size=rel(0), face="bold")) +
-    theme(axis.text  = element_text(size=rel(0), face="bold", colour="black")) +
+    theme(axis.text  = element_text(size=rel(1), face="bold", colour="black")) +
     theme(axis.ticks = element_line(size=rel(1.2), colour = "black")) +
     theme(axis.title.y = element_text(vjust=2)) +
     theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
